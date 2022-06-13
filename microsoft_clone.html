@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav flex justify-between items-center bg-white box-border py-5">
+
+        <div class="left-section flex justify-center items-center md:order-2">
+            <div class="hamburger inline-block cursor-pointer py-2 mx-2 md:hidden ">
+                <div class="line h-0.5 w-4 bg-black my-1 rounded-sm"></div>
+                <div class="line h-0.5 w-4 bg-black my-1 rounded-sm"></div>
+                <div class="line h-0.5 w-4 bg-black my-1 rounded-sm"></div>
+            </div>
+            <div class="search md:hidden">
+                <img src="./images/search.png" alt="" class="h-5 w-5 mx-2 cursor-pointer">
+            </div>
+        </div>
+
+        <div class="logo flex justify-center items-center md:order-1">
+            <img src="./images/microsoft.png" alt="" class=" h-10 w-10 md:h-5 md:w-5 mx-2">
+            <h1 class="font-sans mx-0.5 text-xl md:text-lg">Microsoft</h1>
+            <div
+                class="features absolute bg-gray-300 md:bg-white md:flex md:mx-6 md:space-x-5 -translate-x-[36rem] md:static md:translate-x-0">
+                <div class="f-item hover:underline hover:underline-offset-8">Surface</div>
+                <div class="f-item hover:underline hover:underline-offset-8">Computers</div>
+                <div class="f-item hover:underline hover:underline-offset-8">Computers for Business</div>
+                <div class="f-item hover:underline hover:underline-offset-8">Accessories</div>
+                <div class="f-item hover:underline hover:underline-offset-8">More</div>
+            </div>
+        </div>
+
+        <div class="right-section flex justify-center items-center md:order-3 md:mr-5 space-x-4">
+            <div>
+                <h1 class="hidden md:block md:mr-2 md:cursor-pointer">All Microsoft</h1>
+            </div>
+            <div class="search hidden md:block md:flex">
+                <img src="./images/search.png" alt="" class="h-5 w-5 mx-2 cursor-pointer">
+                <h1 class="">Search</h1>
+            </div>
+            <div class="cart flex ">
+                <img src="./images/shopping-cart.png" alt="" class="h-5 w-5 mx-2 cursor-pointer">
+                <h1 class="">Cart</h1>
+            </div>
+            <div class="account flex ">
+                <img src="./images/user.png" alt="" class="h-5 w-5 mx-2 cursor-pointer">
+                <h1 class="">Sign In</h1>
+            </div>
+        </div>
+    </div>
+    <div class="sliders flex flex-col-reverse md:flex-row bg-gray-200">
+        <div class="left-sec flex flex-col justify-center items-center py-10" >
+            <h1 class="text-4xl mx-4 font-semibold">Surface Laptop 4</h1>
+            <p class="mx-4 my-4 w-4/5 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eos asperiores libero cumque laborum
+                animi necessitatibus ducimus omnis, reiciendis expedita commodi repellat placeat!</p>
+            <div class="button mx-4 my-4 cursor-pointer bg-black text-white rounded-md px-4 py-2 ">Shop Now ></div>
+        </div>
+        <div class="right">
+            <img src="./images/kisspng-laptop-asus-r518ua-dh51t-notebook-hd-2-in-1-pc-int-intel-core-i97980xe-5b3b595be92611.092423641530616155955.png" alt="" class="w-[100%] " >
+        </div>
+        
+    </div>
+
+<div class="promo flex flex-col md:flex-row md:justify-center md:items-center space-y-6 md:space-x-14 py-12">
+    <div class="item1 flex item-center mx-4 my-2 space-x-3 md:mt-9 ">
+        <img src="./images/RWWnyL.webp" alt="">
+        <!-- <p class="font-medium "> Choose your Microsoft 365</p> -->
+        <a href="/" class="font-medium"> Choose your Microsoft 365</a>
+    </div>
+    <div class="item2 flex item-center mx-4 space-x-5">
+        <img src="./images/RWWpVI.webp" alt="" class="">
+        <p class="font-medium ">Accessories</p>
+    </div>
+    <div class="item3 flex item-center mx-4 space-x-3 ">
+        <img src="./images/RWWxUY.webp" alt="">
+        <p class="font-medium">Surface Support</p>
+    </div>
+    <div class="item4 flex item-center mx-4 space-x-3 ">
+        <img src="./images/RWWxV9.webp" alt="" class="mb-3">
+        <p class="font-medium">Register your Surface</p>
+    </div>
+</div>
+
+</body>
+
+</html>
